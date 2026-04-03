@@ -6,7 +6,7 @@ const app=express()
 
 app.use(cors())
 app.use(express.json())
-
+console.log("commit")
 app.use(userrouter)
 
 export default app
